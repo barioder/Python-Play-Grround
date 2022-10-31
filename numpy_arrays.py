@@ -19,3 +19,19 @@ print('Shape of the array ', arr.shape )
 # print size
 
 print('Size of array', arr.size)
+
+print('Adding a new axis')
+a = np.array([1,2,3,4,5,6])
+print(a)
+a2 = a[np.newaxis, :]
+
+print(a2)
+
+a3 = a[:, np.newaxis]
+print(a3)
+
+a = np.array([[[1,2,3], [4,5,6]]])
+print(a)
+a3 = a[np.newaxis, :]
+
+print(a3)
