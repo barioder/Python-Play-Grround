@@ -35,3 +35,10 @@ print(a)
 a3 = a[np.newaxis, :]
 
 print(a3)
+
+# create an array with n dimensions 
+
+arr = np.array([1,2,3,5], ndmin=5)
+
+print('arr has ',arr.ndim,'Dimensions')
+print(arr)
