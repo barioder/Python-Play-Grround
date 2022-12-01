@@ -19,3 +19,11 @@ while value!=0:
     value = value//10
 
 print(f'When reversed the number is {n}')
+
+
+x = [1,2,3,4]
+y = [sum(x[0:a+1]) for a in range(0, len(x))]
+print(y)
+print(x[0:1], 'returned list')
+
+print(sum([1,2]))
