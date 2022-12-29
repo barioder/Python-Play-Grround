@@ -7,6 +7,7 @@
   
 
 Booking  
+
     {
     "start_time": "20:16:29",
     "end_time": "21:16:30",
@@ -14,3 +15,14 @@ Booking
     "time_selected": 2,
     "user": "063fd76d-e809-48f4-8567-6f7a6ce734d6"
 }
+
+
+openhours
+	
+	{
+            "zone": "D",
+            "start_time": "11:00:00",
+            "end_time": "12:00:00",
+            "is_free": true,
+            "pitch": "b0480a22-1382-4ae5-b5bb-d558adcb2d38"
+        }
