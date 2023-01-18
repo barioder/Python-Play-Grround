@@ -27,3 +27,8 @@ print(y)
 print(x[0:1], 'returned list')
 
 print(sum([1,2]))
+
+# How sum function works 
+list_value = [3, 3, 4]
+
+print(sum(list_value, 100))
