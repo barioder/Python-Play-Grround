@@ -12,12 +12,15 @@ count_dic = {}
 
 for char in sentence:
     if char.isalpha():
+        # I check if a key is in a dictionary
         if char in count_dic:
             value = count_dic[char]
+            #  updating the value stored in the dictionary
             count_dic[char] = value + 1
         
         else:
 
+            # adding a new key value pair to the dictionary
             count_dic[char] = 1
 
 print(count_dic)
